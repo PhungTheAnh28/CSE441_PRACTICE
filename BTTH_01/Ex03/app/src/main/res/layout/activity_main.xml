@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- LinearLayout chứa các thành phần giao diện theo chiều dọc -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Tiêu đề ứng dụng -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculator"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:layout_gravity="center" />
+
+        <!-- Nhập giá trị A -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập A: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editText_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <!-- Nhập giá trị B -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập B: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editText_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <!-- Kết quả -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView_kq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kết Quả: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/editText_kq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:editable="false" />
+        </LinearLayout>
+
+        <!-- Các nút bấm phép tính -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/btnTong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/btnHieu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hiệu"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/btnTich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tích"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/btnThuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thương"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
