@@ -1,0 +1,152 @@
+[
+  {
+    "id": "B101",
+    "full_name": {
+      "first": "Hoa",
+      "last": "Mai",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "10/10/2003",
+    "email": "hoamai@xmail.com",
+    "address": "Nghệ An",
+    "major": "CNTT",
+    "gpa": 3.25,
+    "year": 2
+  },
+  {
+    "id": "B102",
+    "full_name": {
+      "first": "Anh",
+      "last": "Nguyễn",
+      "midd": "Văn"
+    },
+    "gender": "Nam",
+    "birth_date": "12/12/2002",
+    "email": "anhnguyen@xmail.com",
+    "address": "Hà Nội",
+    "major": "Kinh tế",
+    "gpa": 3.8,
+    "year": 3
+  },
+  {
+    "id": "B103",
+    "full_name": {
+      "first": "Linh",
+      "last": "Trần",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "05/08/2004",
+    "email": "tranlinh@xmail.com",
+    "address": "Hồ Chí Minh",
+    "major": "Y Dược",
+    "gpa": 3.6,
+    "year": 1
+  },
+  {
+    "id": "B104",
+    "full_name": {
+      "first": "Minh",
+      "last": "Lê",
+      "midd": "Ngọc"
+    },
+    "gender": "Nam",
+    "birth_date": "15/05/2001",
+    "email": "minhle@xmail.com",
+    "address": "Đà Nẵng",
+    "major": "Cơ khí",
+    "gpa": 3.1,
+    "year": 4
+  },
+  {
+    "id": "B105",
+    "full_name": {
+      "first": "Phương",
+      "last": "Phạm",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "20/09/2003",
+    "email": "phamphuong@xmail.com",
+    "address": "Quảng Ninh",
+    "major": "CNTT",
+    "gpa": 3.9,
+    "year": 2
+  },
+  {
+    "id": "B106",
+    "full_name": {
+      "first": "Khoa",
+      "last": "Bùi",
+      "midd": "Văn"
+    },
+    "gender": "Nam",
+    "birth_date": "30/03/2002",
+    "email": "buikhoa@xmail.com",
+    "address": "Huế",
+    "major": "Kỹ thuật Điện",
+    "gpa": 3.4,
+    "year": 3
+  },
+  {
+    "id": "B107",
+    "full_name": {
+      "first": "Trang",
+      "last": "Phạm",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "18/06/2003",
+    "email": "phamtrang@xmail.com",
+    "address": "Hải Phòng",
+    "major": "Quản trị Kinh doanh",
+    "gpa": 3.7,
+    "year": 2
+  },
+  {
+    "id": "B108",
+    "full_name": {
+      "first": "Long",
+      "last": "Nguyễn",
+      "midd": "Văn"
+    },
+    "gender": "Nam",
+    "birth_date": "11/01/2001",
+    "email": "nguyenlong@xmail.com",
+    "address": "Hà Nội",
+    "major": "CNTT",
+    "gpa": 3.2,
+    "year": 4
+  },
+  {
+    "id": "B109",
+    "full_name": {
+      "first": "Vy",
+      "last": "Đỗ",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "25/07/2004",
+    "email": "dovy@xmail.com",
+    "address": "Cần Thơ",
+    "major": "Marketing",
+    "gpa": 3.9,
+    "year": 1
+  },
+  {
+    "id": "B110",
+    "full_name": {
+      "first": "Bình",
+      "last": "Trịnh",
+      "midd": "Văn"
+    },
+    "gender": "Nam",
+    "birth_date": "02/02/2002",
+    "email": "trinhbinh@xmail.com",
+    "address": "Bắc Ninh",
+    "major": "Xây dựng",
+    "gpa": 3,
+    "year": 3
+  }
+]
