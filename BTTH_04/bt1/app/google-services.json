@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520709840852",
+    "project_id": "sinhvien-c6fde",
+    "storage_bucket": "sinhvien-c6fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520709840852:android:4709559ddf1a867b2a8041",
+        "android_client_info": {
+          "package_name": "com.example.bt1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchXnuYU_nPrODRXmUU754kU_3AVery0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
